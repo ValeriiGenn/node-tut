@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "dev": "webpack --mode development ./src/index.js --output ./dist/main.js",
-        "build": "webpack --mode production ./src/index.js --output ./dist/main.js"
+        "dev": "webpack --mode development ./node-tut/index.js --output ./dist/main.js",
+        "build": "webpack --mode production ./node-tut/index.js --output ./dist/main.js"
     },
     "repository": {
         "type": "git",
