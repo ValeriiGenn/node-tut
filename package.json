@@ -1,0 +1,23 @@
+{
+    "name": "node-tut",
+    "version": "1.0.0",
+    "description": "Node.js",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ValeriiGenn/node-tut.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ValeriiGenn/node-tut/issues"
+    },
+    "homepage": "https://github.com/ValeriiGenn/node-tut#readme",
+    "dependencies": {
+        "validator": "^13.6.0"
+    }
+}
