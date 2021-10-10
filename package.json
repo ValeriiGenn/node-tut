@@ -4,7 +4,9 @@
     "description": "Node.js",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "dev": "webpack --mode development ./src/index.js --output ./dist/main.js",
+        "build": "webpack --mode production ./src/index.js --output ./dist/main.js"
     },
     "repository": {
         "type": "git",
@@ -19,5 +21,9 @@
     "homepage": "https://github.com/ValeriiGenn/node-tut#readme",
     "dependencies": {
         "validator": "^13.6.0"
+    },
+    "devDependencies": {
+        "webpack": "^5.58.1",
+        "webpack-cli": "^4.9.0"
     }
 }
